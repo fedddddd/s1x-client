@@ -230,6 +230,7 @@ namespace game
 	WEAK symbol<int> dvarCount{0x14A7BFF34, 0x14B32AA30};
 	WEAK symbol<dvar_t*> sortedDvars{0x14A7BFF50, 0x14B32AA50};
 
+	WEAK symbol<unsigned int> gameEntityId{0x149AF55B4, 0x14815DEB4};
 	WEAK symbol<unsigned int> levelEntityId{0x149AF55B0, 0x14815DEB0};
 	WEAK symbol<int> g_script_error_level{0x14A1917A8, 0x1487F9FA4};
 	WEAK symbol<jmp_buf> g_script_error{0x14A1917B0, 0x1487FA0C0};
